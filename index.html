@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Windows 11 New Tab — Chrome Extension</title>
+  <meta name="description" content="Windows 11 style new tab page for Chrome, Edge and Brave." />
+  <meta property="og:title" content="Windows 11 New Tab" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="icon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="wrap bar">
+      <div class="brand"><div class="mark"><i></i><i></i><i></i><i></i></div><b dir="ltr">Windows 11 New Tab</b><span class="muted hide-sm">/ Releases</span></div>
+      <button id="langBtn" class="btn outline">🌐 <span id="langLabel">EN</span></button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="tags"><span class="pill" data-t="available"></span><span class="muted" data-t="release"></span></div>
+    <div class="hero">
+      <div>
+        <h1 data-t="title"></h1>
+        <p class="muted lead" data-t="intro"></p>
+        <div class="row"><a class="btn primary" href="win11-newtab.zip" download>⬇ <span data-t="download"></span></a><span class="muted" data-t="fileType"></span></div>
+        <p class="muted" data-t="browser"></p>
+      </div>
+      <div class="preview"><div class="dots"><i></i><i></i><i></i></div><img src="wallpaper.jpg" alt="preview" /></div>
+    </div>
+
+    <ul class="features">
+      <li data-t="f1"></li><li data-t="f2"></li><li data-t="f3"></li><li data-t="f4"></li>
+    </ul>
+
+    <div class="cols">
+      <section>
+        <small class="ver" dir="ltr">v1.1.0</small>
+        <h2 data-t="notes"></h2>
+        <p class="muted" data-t="notesBody"></p>
+        <a class="asset" href="win11-newtab.zip" download><span dir="ltr">win11-newtab.zip</span><span class="muted">ZIP</span></a>
+      </section>
+      <section>
+        <h2 data-t="install"></h2>
+        <ol id="steps"></ol>
+        <p class="note muted" data-t="note"></p>
+      </section>
+    </div>
+  </main>
+  <footer class="muted">Windows 11 New Tab · v1.1.0</footer>
+  <script src="app.js"></script>
+</body>
+</html>
