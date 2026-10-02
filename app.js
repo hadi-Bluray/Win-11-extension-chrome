@@ -1,6 +1,6 @@
 const T = {
   fa: {
-    available: "آماده دانلود", release: "انتشار نسخه ۱.۱.۰",
+    available: "آماده دانلود", release: "انتشار نسخه ۱.۲.۰",
     title: "یک تب جدید، با حس ویندوز ۱۱.",
     intro: "ساعت و تاریخ، جستجوی سریع، منوی استارت و سایت‌های محبوبتان، همه در یک جا — حالا با تنظیمات و زبان انگلیسی.",
     download: "دانلود افزونه", fileType: "فایل ZIP", browser: "برای Chrome، Edge و Brave",
@@ -12,7 +12,7 @@ const T = {
     note: "این افزونه هنوز در فروشگاه Chrome منتشر نشده است.", lang: "EN",
   },
   en: {
-    available: "Ready to download", release: "Version 1.1.0 release",
+    available: "Ready to download", release: "Version 1.2.0 release",
     title: "A new tab that feels like Windows 11.",
     intro: "Clock, date, quick search, a Start menu and your favorite sites in one place — now with settings and English support.",
     download: "Download extension", fileType: "ZIP file", browser: "For Chrome, Edge & Brave",
